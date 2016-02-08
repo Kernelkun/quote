@@ -1,0 +1,54 @@
+body {
+    background-color: #712043;
+}
+
+.link {
+    color: white;
+}
+
+.quote-container {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    border-radius: 8px;
+    
+    color: #712043;
+    font-weight: bold;
+    font-family: 'Abel', sans-serif;
+    background-color: white;
+}
+
+#quote-title {
+    margin-bottom: 40px;
+}
+
+.share {
+    color: #712043;
+}
+
+share-button:hover {
+    color: #777;
+}
+
+#get-another-quote-button {
+    margin-right: 20px;
+}
+
+#get-another-quote-button:hover {
+    color: #777;
+}
+
+a {
+    color: #712043;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
